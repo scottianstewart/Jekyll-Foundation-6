@@ -47,7 +47,7 @@ NAVIGATION
 	padding: 10px 0;
 }
 .main-nav {
-    background: tomato;
+    background: black;
     float: left;
     width: 100%;
     position: fixed;
@@ -122,19 +122,8 @@ TEXT & BUTTONS
     font-weight: 600;
     transition: all .2s ease;
 }
-.btn-blue {
-    background: rgba(55,178,195,0.80);
-}
-.btn-red {
-    background: rgba(247,76,59,0.80);
-}
-.btn-blue:hover {
-    background: rgba(55,178,195,1);
-    color: white;
-}
-.btn-red:hover {
-    background: rgba(247,76,59,1);
-    color: white;
+.btn:hover {
+
 }
 /***************************************************************
 SECTIONS
@@ -205,12 +194,6 @@ fieldset {
     -moz-transition: all .45s ease-in-out !important;
     -o-transition: all .45s ease-in-out !important;
     height: 41px !important;
-    color: white !important;
-    -webkit-transition: background-color 0.2s, color 0.2s, border-color 0.2s !important;
-       -moz-transition: background-color 0.2s, color 0.2s, border-color 0.2s !important;
-        -ms-transition: background-color 0.2s, color 0.2s, border-color 0.2s !important;
-         -o-transition: background-color 0.2s, color 0.2s, border-color 0.2s !important;
-            transition: background-color 0.2s, color 0.2s, border-color 0.2s !important;
 }
 input.text,
 input.title {
@@ -291,7 +274,7 @@ input.title {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif !important;
+    font-family: $base-font-family;
 }
 .job-list li ul li a .title {
     font-weight: 600;
@@ -346,8 +329,6 @@ input.title {
     margin-top: 125px;
     font-family: $base-font-family;
     font-weight: 600;
-    font-size: 28px !important;
-    /* margin: 0; */
     text-align: center;
     color: #332586;
 }
@@ -476,3 +457,5 @@ SLICK NAV
 /***************************************************************
 MEDIA QUERIES/ VERSIONING
 ***************************************************************/
+
+
