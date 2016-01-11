@@ -139,6 +139,8 @@ fieldset {
     margin: 0 2px;
 }
 #company-profile-main .open-jobs .jobcosearch label {
+    font-family: $base-font-family;
+    font-weight: 100;
     font-size: 18px;
     width: 100px;
     overflow: hidden;
@@ -147,8 +149,6 @@ fieldset {
     clear: both;
     padding: 3px 0;
     color: #fff;
-    font-family: $base-font-family;
-    font-weight: 100;
 }
 input.text,
 input.title {
@@ -163,7 +163,6 @@ input.title {
 .title {
     text-align: left;
     display: block;
-    font-weight: bolder;
     font-size: 18px;
 }
 #PContent .job-list {
@@ -173,19 +172,15 @@ input.title {
     display: block;
     color: #222;
     background: #fff;
-    transition: all .2s ease;
     text-align: left;
     position: relative;
     padding: 15px;
+    transition: all .3s;
 }
 .job-list li ul li a:hover {
     background: #353B3B;
     color: #fff;
     text-decoration: none;
-    -moz-transition: all .2s ease;
-    -o-transition: all .2s ease;
-    -webkit-transition: all .2s ease;
-    transition: all .2s ease;
 }
 .open-jobs {
     max-width: 980px;
