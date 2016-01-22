@@ -11,7 +11,10 @@
 #PTitle,
 #PDetails,
 .co-nav,
-.co-footnav {
+.co-footnav,
+.open-jobs h2,
+.open-jobs .jobcosearch label,
+.job-paging:nth-child(1) {
     display: none;
 }
 /***************************************************************
@@ -19,6 +22,9 @@ KILLS
 ***************************************************************/
 [class*="column"] + [class*="column"]:last-child {
     float: left;
+}
+ol {
+    margin: 0;
 }
 /***************************************************************
 NAVIGATION
@@ -211,6 +217,28 @@ input.title {
     display: block;
     padding: 0px;
     margin: 0px;
+}
+.open-jobs:before {
+    font-family: 'Open Sans', sans-serif;
+    content: 'PROJECTSOURCE POSITIONS';
+    font-size: 24px;
+    max-width: 318px;
+    display: block;
+    margin: 0 auto 40px auto;
+}
+/*GOOD BASE JOBS BTN STYLING*/
+.open-jobs input#cosearchbutton {
+    color: white !important;
+    font-family: 'Open Sans', sans-serif !important;
+    height: 44px !important;
+    width: 214px !important;
+    border-radius: 0 !important;
+    font-size: 18px !important;
+    background: #F16F30 !important;
+    border: 2px solid transparent !important;
+}
+.open-jobs {
+    padding: 80px 0 50px 0;
 }
 /**********************************************************************************************************
 JOB DETAIL PAGE - START
