@@ -1,5 +1,5 @@
-# Jekyll-Foundation-6
-Jekyll + Foundation 6 + Slick Nav + livereload + Other good things
+# Jekyll-Static-Sites
+Jekyll + Jquery + livereload + Other good things
 
 clone repo <br>
 have livereload Chrome extension <br>
